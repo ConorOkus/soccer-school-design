@@ -1,1 +1,0 @@
-# soccer-school-design
