@@ -1,0 +1,22 @@
+{
+  "name": "soccer-school-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConorOkus/soccer-school-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConorOkus/soccer-school-design/issues"
+  },
+  "homepage": "https://github.com/ConorOkus/soccer-school-design#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
+}
