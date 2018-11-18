@@ -1,3 +1,77 @@
 body {
-  background-color: red;
+  background-color: white;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+.wireframe {
+  margin: 0;
+  padding: 0;
+}
+
+.wireframe section {
+  margin: 1em;
+  background-color: grey;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.wireframe h1 {
+  padding-top: 0.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    height: 5em;
+  }
+  .about-us {
+    height: 30em;
+  }
+  .core-values {
+    height: 30em;
+  }
+  .timetable {
+    height: 30em;
+  }
+  .contact-us {
+    height: 40em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wireframe section {
+    margin: 0;
+  }
+  .main-container {
+    display: grid;
+    grid-template-areas:
+      "header about-us about-us about-us about-us core-values"
+      "header about-us about-us about-us about-us core-values"
+      "header timetable timetable timetable timetable core-values"
+      "header timetable timetable timetable timetable core-values"
+      "header contact-us contact-us contact-us contact-us core-values"
+      "header contact-us contact-us contact-us contact-us core-values"
+      "header contact-us contact-us contact-us contact-us core-values"
+      "header contact-us contact-us contact-us contact-us core-values";
+    grid-gap: 10px;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .header {
+    grid-area: header;
+  }
+  .about-us {
+    grid-area: about-us;
+  }
+  .core-values {
+    grid-area: core-values;
+  }
+  .timetable {
+    grid-area: timetable;
+  }
+  .contact-us {
+    grid-area: contact-us;
+  }
 }
