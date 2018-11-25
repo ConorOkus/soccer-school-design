@@ -7,7 +7,7 @@ input,
 select,
 textarea {
   color: black;
-  font-family: serif;
+  font-family: 'Open Sans', serif;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;;
   clear: both;
 }
 
@@ -140,4 +140,24 @@ h3 {
 h4 {
   font-size: 1.2em;
   line-height: 1;
+}
+
+/* Responsive Typography */
+
+.main-container {
+  font-size: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .main-container {
+    font-size: 1.2em;
+    line-height: 1.375em;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .main-container {
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
 }

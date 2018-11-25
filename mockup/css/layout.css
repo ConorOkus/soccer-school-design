@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+body {
+  background: hsl(0, 0%, 90%);
+}
+
+.main-container {
+  padding: 2em;
+}
+
+/* Responsive Layout */
+
+@media only screen and (min-width: 1024px) {
+  .main-container {
+    display: grid;
+    grid-template-areas:
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values"
+      "banner main-content main-content main-content main-content core-values";
+    grid-gap: 10px;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .banner {
+    grid-area: banner;
+  }
+  .core-values {
+    grid-area: core-values;
+  }
+  .main-content {
+    grid-area: main-content;
+  }
+}
