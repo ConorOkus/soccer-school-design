@@ -25,8 +25,8 @@ body {
       "banner main-content main-content main-content main-content core-values"
       "banner main-content main-content main-content main-content core-values";
     grid-gap: 10px;
-    height: 100vh;
-    padding: 10px;
+    max-height: 100vh;
+    padding: 0em;
   }
 
   .banner {
@@ -36,6 +36,8 @@ body {
     grid-area: core-values;
   }
   .main-content {
+    max-height: 100vh;
+    overflow-y: scroll;
     grid-area: main-content;
   }
 }

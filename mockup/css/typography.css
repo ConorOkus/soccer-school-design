@@ -7,7 +7,7 @@ input,
 select,
 textarea {
   color: black;
-  font-family: 'Open Sans', serif;
+  font-family: "Open Sans", serif;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans Condensed', sans-serif;;
+  font-family: "Open Sans Condensed", sans-serif;
   clear: both;
 }
 
@@ -69,7 +69,6 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
   font-size: 1.5rem;
   line-height: 1.6;
   margin-bottom: 1.6em;
