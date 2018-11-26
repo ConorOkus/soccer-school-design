@@ -1,3 +1,27 @@
 .core-values h2 {
   text-align: center;
 }
+
+@media only screen and (min-width: 1280px) {
+  .core-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+
+  .core-values div > h3 {
+    margin: 0;
+  }
+
+  .core-values div > p {
+    padding: 0.5em;
+    font-size: 0.8em;
+  }
+
+  .core-values-wrapper {
+    align-self: flex-end;
+  }
+}

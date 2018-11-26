@@ -12,7 +12,7 @@ body {
 
 /* Responsive Layout */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .main-container {
     display: grid;
     grid-template-areas:

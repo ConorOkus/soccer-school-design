@@ -1,3 +1,13 @@
 .about-us {
   text-align: center;
 }
+
+@media only screen and (min-width: 1280px) {
+  .about-us {
+    padding: 1em;
+  }
+
+  .about-us h2 {
+    margin: 0;
+  }
+}
