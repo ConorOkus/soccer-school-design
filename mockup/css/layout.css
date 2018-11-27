@@ -7,12 +7,24 @@ body {
 }
 
 .main-container {
-  padding: 2em;
+  padding: 1em;
 }
 
 /* Responsive Layout */
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 600px) {
+  .main-container {
+    padding: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-container {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .main-container {
     display: grid;
     grid-template-areas:
