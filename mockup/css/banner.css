@@ -6,8 +6,8 @@
   justify-content: center;
   height: 100vh;
   margin: -2em -2em 0em -2em;
-  background-color: #000;
   padding: 1em;
+  background-color: #000;
   color: white;
   text-align: center;
 }
@@ -26,9 +26,41 @@
   margin-top: 0.5em;
 }
 
+.banner i {
+  font-size: 3em;
+  color: #fff;
+}
+
+.angle-down {
+  -webkit-animation: bounce 1s infinite alternate;
+  animation: bounce 1s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .banner {
     height: auto;
     margin: 0;
+  }
+
+  .banner i {
+    display: none;
   }
 }
