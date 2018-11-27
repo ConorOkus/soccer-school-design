@@ -16,14 +16,14 @@ body {
   .main-container {
     display: grid;
     grid-template-areas:
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values"
-      "banner main-content main-content main-content main-content core-values";
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content"
+      "banner main-content main-content main-content main-content main-content";
     grid-gap: 10px;
     max-height: 100vh;
     padding: 0em;

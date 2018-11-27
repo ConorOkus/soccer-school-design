@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-@keyframes bounce {
+@-webkit-keyframes bounce {
   from {
     transform: translateY(0px);
   }
@@ -45,7 +45,8 @@
     transform: translateY(-10px);
   }
 }
-@-webkit-keyframes bounce {
+
+@keyframes bounce {
   from {
     transform: translateY(0px);
   }
