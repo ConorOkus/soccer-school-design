@@ -2,12 +2,16 @@
 Layouts
 --------------------------------------------------------------*/
 
-body {
+html, body {
   background: hsl(0, 0%, 90%);
 }
 
 .main-container {
   padding: 1em;
+}
+
+.main-content {
+  padding-top: 0.5em; 
 }
 
 /* Responsive Layout */
@@ -25,6 +29,12 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+  html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+  }
+
   .main-container {
     display: grid;
     grid-template-areas:
@@ -47,9 +57,11 @@ body {
   .core-values {
     grid-area: core-values;
   }
+  
   .main-content {
+    grid-area: main-content;
     max-height: 100vh;
     overflow-y: scroll;
-    grid-area: main-content;
+    padding: 1em;
   }
 }
