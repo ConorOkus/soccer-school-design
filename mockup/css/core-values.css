@@ -1,5 +1,38 @@
-.core-values h2 {
+.core-values {
   text-align: center;
+}
+
+.card {
+  margin-top: 1em;
+  background-color: #ffffff;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card-thumbnail {
+  margin: 0;
+}
+
+.card-content {
+  margin: 0.2em;
+  padding-bottom: 0.5em;
+  color: #000;
+}
+
+.card-content h3 {
+  text-transform: uppercase;
+}
+
+.card-content p:nth-child(3) {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 767px) {
+  .cards-wrapper {
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
