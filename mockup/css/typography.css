@@ -147,7 +147,7 @@ h4 {
   font-size: 1em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .main-container {
     font-size: 1.2em;
     line-height: 1.375em;

@@ -16,8 +16,8 @@
 }
 
 .card-content {
-  margin: 0.2em;
-  padding-bottom: 0.5em;
+  font-size: 80%;
+  padding: 1em;
   color: #000;
 }
 
@@ -30,29 +30,32 @@
 }
 
 @media only screen and (min-width: 767px) {
-  .cards-wrapper {
+  .cards {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: calc(50% - 0.5em);
+  }
+
+  .main-core-value {
+    flex: 1 0 100%;
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  .core-values {
+@media only screen and (min-width: 992px) {
+  .cards {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    text-align: center;
   }
 
-  .core-values div > h3 {
-    margin: 0;
+  .card {
+    width: calc(33.333% - 0.5em);
   }
 
-  .core-values div > p {
-    padding: 0.5em;
-    font-size: 0.8em;
-  }
-
-  .core-values-wrapper {
-    align-self: flex-end;
+  .main-core-value {
+    flex: none;
   }
 }

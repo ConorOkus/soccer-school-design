@@ -5,8 +5,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  margin: -2em -2em 0em -2em;
-  padding: 1em;
+  margin: -1em -1em 0em -1em;
   background-color: #000;
   color: white;
   text-align: center;
@@ -55,10 +54,17 @@
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .banner {
+    margin: -2em -2em 0em -2em;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .banner {
     height: auto;
     margin: 0;
+    padding: 0.5em;
   }
 
   .banner i {

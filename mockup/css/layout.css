@@ -2,7 +2,8 @@
 Layouts
 --------------------------------------------------------------*/
 
-html, body {
+html,
+body {
   background: hsl(0, 0%, 90%);
 }
 
@@ -10,28 +11,25 @@ html, body {
   padding: 1em;
 }
 
-.main-content {
-  padding-top: 0.5em; 
-}
-
 /* Responsive Layout */
 
 @media only screen and (min-width: 600px) {
-  .main-container {
-    padding: 1.5em;
-  }
-}
-
-@media only screen and (min-width: 768px) {
   .main-container {
     padding: 2em;
   }
 }
 
+@media screen and (min-width: 992px) {
+  .main-container {
+    padding: 2.5em;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
-  html, body {
-    margin: 0; 
-    height: 100%; 
+  html,
+  body {
+    margin: 0;
+    height: 100%;
     overflow: hidden;
   }
 
@@ -57,11 +55,11 @@ html, body {
   .core-values {
     grid-area: core-values;
   }
-  
+
   .main-content {
     grid-area: main-content;
     max-height: 100vh;
     overflow-y: scroll;
-    padding: 1em;
+    padding: 1em 2em;
   }
 }
