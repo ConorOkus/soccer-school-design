@@ -26,12 +26,12 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  html,
+  /* html,
   body {
     margin: 0;
     height: 100%;
     overflow: hidden;
-  }
+  } */
 
   .main-container {
     display: grid;
@@ -44,8 +44,6 @@ body {
       "banner main-content main-content main-content main-content main-content"
       "banner main-content main-content main-content main-content main-content"
       "banner main-content main-content main-content main-content main-content";
-    grid-gap: 10px;
-    max-height: 100vh;
     padding: 0em;
   }
 
