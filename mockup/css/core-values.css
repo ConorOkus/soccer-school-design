@@ -1,4 +1,5 @@
-.core-values {
+.core-values h2 {
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -46,6 +47,24 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: calc(33.333% - 0.5em);
+  }
+
+  .main-core-value {
+    flex: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .core-values {
+    padding: 0em 2em;
+  }
   .cards {
     display: flex;
     justify-content: space-between;

@@ -26,13 +26,6 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* html,
-  body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-  } */
-
   .main-container {
     display: grid;
     grid-template-areas:
@@ -58,6 +51,5 @@ body {
     grid-area: main-content;
     max-height: 100vh;
     overflow-y: scroll;
-    padding: 1em 2em;
   }
 }

@@ -1,4 +1,5 @@
 .timetable h2 {
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -15,6 +16,25 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+  .timetable-info {
+    width: calc(50% - 0.5em);
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .timetable h2 {
+    padding-top: 1em;
+    margin-bottom: 0;
+  }
+
+  .timetable-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
   }
 
   .timetable-info {

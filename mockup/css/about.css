@@ -1,8 +1,14 @@
 .about-us h2 {
+  text-transform: uppercase;
   text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {
+  .about-us {
+    background: #fff;
+    padding: 1em 2em;
+  }
+
   .about-us h2 {
     margin-top: 0;
   }
