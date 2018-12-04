@@ -1,5 +1,5 @@
 .social {
-  background: #fff;
+  background: #000;
   margin: 1em -1em -1em -1em;
 }
 
@@ -16,7 +16,7 @@
 .social-icons > .fa {
   font-size: 1em;
   text-decoration: none;
-  color: #000000;
+  color: #fff;
   margin: 1em;
 }
 
@@ -26,7 +26,6 @@
 
 @media screen and (min-width: 767px) {
   .social {
-    background: #fff;
     margin: 2em -2em -2em -2em;
   }
 
@@ -37,7 +36,6 @@
 
 @media screen and (min-width: 992px) {
   .social {
-    background: #fff;
     margin: 2.5em -2.5em -2.5em -2.5em;
   }
   .social-icons > .fa {
