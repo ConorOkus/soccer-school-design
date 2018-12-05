@@ -1,6 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800,900");
 
-.menu-icon-container {
+.header {
+  height: 100vh;
+  margin: -1em -1em 0em -1em;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  margin: 0em;
+}
+
+.header p {
+  margin-top: 0.5em;
+}
+
+.header i {
+  font-size: 3em;
+  color: #fff;
+}
+
+.header-menu {
   display: flex;
   justify-content: space-between;
   padding: 0.5em;
@@ -16,42 +39,19 @@
   transition: 0.4s;
 }
 
-.banner {
-  height: 100vh;
-  margin: -1em -1em 0em -1em;
-  background-color: #000;
-  color: white;
-  text-align: center;
-}
-
-.banner h1 {
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  margin: 0em;
-}
-
-.banner h1 > .logo-f {
+.header-text-logo h1 > span:first-child {
   color: red;
 }
 
-.banner p {
-  margin-top: 0.5em;
-}
-
-.banner i {
-  font-size: 3em;
-  color: #fff;
-}
-
-.text-logo h1 > span:first-child {
-  color: red;
-}
-
-.site-title {
+.header-site-title {
   padding-top: calc(calc(100vh / 2) / 2);
 }
 
-.angle-down {
+.header-site-title h1 > span {
+  color: red;
+}
+
+.header-scroll-down {
   -webkit-animation: bounce 1s infinite alternate;
   animation: bounce 1s infinite alternate;
   cursor: pointer;
@@ -76,19 +76,21 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .banner {
+  .header {
     margin: -2em -2em 0em -2em;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .banner {
-    height: auto;
+  .header {
     margin: 0;
-    padding: 0.5em;
   }
 
-  .banner i {
+  .header i {
     display: none;
+  }
+
+  .header-site-title {
+    padding: calc(calc(100vh / 2) / 2) 1em 0em 1em;
   }
 }
