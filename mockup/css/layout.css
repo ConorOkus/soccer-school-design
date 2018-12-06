@@ -29,19 +29,19 @@ body {
   .page {
     display: grid;
     grid-template-areas:
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content"
-      "banner main-content main-content main-content main-content main-content";
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content"
+      "header main-content main-content main-content main-content main-content";
     padding: 0em;
   }
 
-  .banner {
-    grid-area: banner;
+  .header {
+    grid-area: header;
   }
   .core-values {
     grid-area: core-values;

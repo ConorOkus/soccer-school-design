@@ -58,6 +58,9 @@
 }
 
 .header-side-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 0;
   position: fixed;
@@ -67,7 +70,6 @@
   background-color: #000;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
   text-align: center;
 }
 
@@ -109,7 +111,7 @@
 }
 
 .header-site-title {
-  padding-top: calc(calc(100vh / 2) / 2);
+  padding: calc(calc(100vh / 2) / 2) 1em 0em 1em;
 }
 
 .header-site-title h1 > span {
@@ -160,6 +162,7 @@
 
 @media only screen and (min-width: 1200px) {
   .header {
+    width: 320px;
     margin: 0;
   }
 
@@ -168,19 +171,15 @@
   }
 
   .header-side-nav[data-state=open] {
-    width: 337px;
+    width: inherit;
   }
 
   .header-site-title {
     padding: calc(calc(100vh / 2) / 2) 1em 0em 1em;
   }
-
-  .main-nav {
-    padding-top: 2.5em; 
-  }
   
   .main-nav li a {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
 }
