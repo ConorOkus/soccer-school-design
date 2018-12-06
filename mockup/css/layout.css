@@ -51,5 +51,6 @@ body {
     grid-area: main-content;
     max-height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 }
