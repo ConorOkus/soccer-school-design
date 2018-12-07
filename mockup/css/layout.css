@@ -42,6 +42,7 @@ body {
 
   .header {
     grid-area: header;
+    overflow-y: hidden;
   }
   .core-values {
     grid-area: core-values;
