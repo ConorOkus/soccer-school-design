@@ -110,8 +110,11 @@
   color: grey;
 }
 
-.header-site-title {
-  padding: calc(calc(100vh / 2) / 2) 1em 0em 1em;
+.header-site-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .header-site-title h1 > span {
@@ -121,7 +124,6 @@
 .header-scroll-down {
   -webkit-animation: bounce 1s infinite alternate;
   animation: bounce 1s infinite alternate;
-  cursor: pointer;
 }
 
 @-webkit-keyframes bounce {
@@ -172,10 +174,6 @@
 
   .header-side-nav[data-state=open] {
     width: inherit;
-  }
-
-  .header-site-title {
-    padding: calc(calc(100vh / 2) / 2) 1em 0em 1em;
   }
   
   .main-nav li a {
