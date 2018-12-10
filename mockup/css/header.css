@@ -111,15 +111,8 @@
   color: grey;
 }
 
-.header-site-title-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
 .header-site-title {
-  padding: 1em;
+  padding: 30vh 1em;
 }
 
 .header-site-title h1 > span {
@@ -179,6 +172,10 @@
 
   .header-side-nav[data-state=open] {
     width: inherit;
+  }
+
+  .header-site-title {
+    padding: 40vh 1em;
   }
   
   .main-nav li a {

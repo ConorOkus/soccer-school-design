@@ -45,6 +45,10 @@
   .main-core-value {
     flex: 1 0 100%;
   }
+
+  .last-core-value {
+    flex: 1 0 100%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -60,6 +64,10 @@
   .main-core-value {
     flex: none;
   }
+
+  .last-core-value {
+    flex: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -73,9 +81,5 @@
 
   .card {
     width: calc(33.333% - 0.5em);
-  }
-
-  .main-core-value {
-    flex: none;
   }
 }
