@@ -53,8 +53,15 @@
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-.header-text-logo h1 > span:first-child {
-  color: red;
+.header-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 8em;
+  height: auto;
 }
 
 .header-side-nav {
@@ -111,8 +118,16 @@
   color: grey;
 }
 
+.header-site-title-container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 90px);
+}
+
+
 .header-site-title {
-  padding: 30vh 1em;
+  padding: 0 1em;
 }
 
 .header-site-title h1 > span {
@@ -172,10 +187,6 @@
 
   .header-side-nav[data-state=open] {
     width: inherit;
-  }
-
-  .header-site-title {
-    padding: 40vh 1em;
   }
   
   .main-nav li a {
